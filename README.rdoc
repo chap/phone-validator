@@ -5,6 +5,6 @@
 # 123-456-7890
 # 1234567890
 
-class User < ActiveRecord::Base
-  validates :phone, :presence => true, :phone => true
-end
+  class User < ActiveRecord::Base
+    validates :phone, :presence => true, :phone => true
+  end
