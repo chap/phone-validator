@@ -1,9 +1,13 @@
-= phone-validator
+= Phone Validator validates 10 digit numbers that are optionally separated by dashes.
 
-# validate 10 digit numbers
-# optionally seperated by dashes
-# 123-456-7890
-# 1234567890
+valid: 123-456-7890, 1234567890
+invalid: 123, 123--123, 123x1
+
+= Installation
+
+Include the gem in your Gemfile:
+
+  gem 'phone-validator'
 
   class User < ActiveRecord::Base
     validates :phone, :presence => true, :phone => true
