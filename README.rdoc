@@ -1,7 +1,7 @@
-= Phone Validator validates 10 digit numbers that are optionally separated by dashes.
+= Phone Validator validates numbers with country code that are optionally separated by dashes.
 
-valid: 123-456-7890, 1234567890
-invalid: 123, 123--123, 123x1
+valid:
+invalid: 123, 123--123, 123x1, 123-456-7890, 1234567890
 
 = Installation
 
